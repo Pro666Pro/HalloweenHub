@@ -14,7 +14,9 @@ S.Transparency = 0
 S.Position = Vector3.new(-7000, -7000, -7000)
 S.Size = Vector3.new(1000, 10, 1000)
 S.Parent = workspace
+end
 
+	
 local Tab = Window:MakeTab({
 	Name = "Badge Section",
 	Icon = "rbxassetid://4483345998",
