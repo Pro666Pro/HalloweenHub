@@ -38,7 +38,7 @@ fireclickdetector(v.ClickDetector, 0)
 fireclickdetector(v.ClickDetector, 1)
 end
 if game.Players.LocalPlayer.Character:FindFirstChild("KillstreakLevel").Value < 9 then
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough Killstreak To Auto Get Hallow Jack", Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough Killstreak To Auto Get Hallow Jack" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 end
                     end
                 end
